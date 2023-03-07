@@ -1,5 +1,5 @@
 package com.example;
-//Traverse for the node from 0,0
+
 public class Node<T> {
     private boolean visited;
     Node<T> lower;
@@ -29,10 +29,5 @@ public class Node<T> {
 
     public void setVisited(boolean visited) {
         this.visited = visited;
-    }
-
-    public void updateLowerRight(Node<T> lower, Node<T> right) {
-        this.lower = lower;
-        this.right = right;
     }
 }
